@@ -1,33 +1,48 @@
 body {
-	background-color: darkslategrey;
+	background-color: #D76483;
 	font-size: 100%
 }
 
 #title {
-	color: white;
+	color: #C3AAA5;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Droid Serif', serif;
 }
 
 #mainColumn {
-	margin: 0 auto;
+
 	width: 90%;
+	font-family: 'Droid Serif', serif;
 }
 #nav {
+	margin: .4em;
 	width: 20%;
 	float: left;
-	background: lightgrey;
+	background-color: #FFC2BB;
 	padding: 0 .25em;
+	font-family: 'Droid Serif', serif;
+	
 }
+
+#mainColumn a {
+text-decoration: none;
+color: #AD2C5D;
+}
+
+#mainColumn a:hover {
+color: black;
+}
+
 #nav h2{
 	font-size:1em;
+	font-family: 'Droid Serif', serif;
 }
 #content {
 	float: left;
 	width: 75%;
-	background-color: white;
+	background-color: #C3AAA5;
 	padding: 1em;
-	font-family: serif;
+font-family: 'Droid Serif', serif;
 }
 #illustration {
 	text-align: center;
